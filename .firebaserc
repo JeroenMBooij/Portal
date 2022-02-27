@@ -1,9 +1,9 @@
 {
   "targets": {
-    "portal": {
+    "Portal": {
       "hosting": {
-        "portal": [
-          "portal"
+        "Portal": [
+          "Portal"
         ]
       }
     }

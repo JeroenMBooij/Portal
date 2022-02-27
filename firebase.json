@@ -1,8 +1,8 @@
 {
   "hosting": [
     {
-      "target": "portal",
-      "public": "dist/portal",
+      "target": "Portal",
+      "public": "dist/Portal",
       "ignore": [
         "**/.*"
       ],

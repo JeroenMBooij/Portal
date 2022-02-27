@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "portal": {
+      "hosting": {
+        "portal": [
+          "portal"
+        ]
+      }
+    }
+  }
+}

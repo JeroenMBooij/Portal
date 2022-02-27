@@ -3,7 +3,7 @@
         <div class="account-container" (click)="sidenav.toggle()">
             <div class="icon-container">
                 <div class="tracer"><span></span><span></span></div>
-                <img src="~/assets/images/robot.svg" alt="">
+                <img src="Portal/assets/images/robot.svg" alt="">
             </div>
             <a mat-button style="padding-top: 15px;"><span>{{username}}</span></a>
         </div>
@@ -20,7 +20,7 @@
             <div fxLayout="column" class="my-nav-container justify-content-between">
                 <div fxLayout="column" class="mt-5" id="my-nav-container">
                     <a fxHide.gt-sm="true" mat-button routerLink="/" routerLinkActive="active-link" class="mb-3" [routerLinkActiveOptions]="{exact: true}">
-                        <span>{{'header.decks' | translate }}</span>
+                        <span>{{'header.decks2' | translate }}</span>
                     </a>
                     <a fxHide.gt-sm="true" mat-button routerLink="/review" routerLinkActive="active-link" class="mb-3">
                         <span>{{'header.review' | translate }}</span>

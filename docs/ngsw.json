@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1646777678623,
+  "timestamp": 1646778018307,
   "index": "./index.html",
   "assetGroups": [
     {
@@ -18,7 +18,7 @@
         "./manifest.webmanifest",
         "./polyfills.1d51abe7ca946a30.js",
         "./runtime.5a2c5fd40c8c1881.js",
-        "./styles.999d84bdd97d2746.css"
+        "./styles.9b76ce9365169661.css"
       ],
       "patterns": []
     },
@@ -117,12 +117,12 @@
     "./assets/images/projects/voice.png": "d3390b01355bec5955e1f519bbb267c8a6d7b4f0",
     "./assets/images/vegan.svg": "4162ce7be353bfe81f85643c0b4a54efaf899e02",
     "./earth.01ae071d88836d78.jpg": "66a8f7a4cfcfa72126fa0c7b59f08f3fda8a5617",
-    "./index.html": "6cf6721d30add04a7b4ac12c404c411be68fb4c3",
+    "./index.html": "7305fef8e29653d41c3c58c3c0947a597e0e7bff",
     "./main.2ee8dd7e1da7ae37.js": "9a905832c6aa07fb851d18c27131bd0d22dcc711",
     "./manifest.webmanifest": "0d83efa350010801a14dd29b982f423958ce9ff1",
     "./polyfills.1d51abe7ca946a30.js": "ad77c4b57de2ed9b373e3ce4f3336c22ea6494b5",
     "./runtime.5a2c5fd40c8c1881.js": "cc396e04c65677ab6111120bb51463373b5f654f",
-    "./styles.999d84bdd97d2746.css": "7fd1af41404e5b8d7ba739463cd9e11a5dd415d6"
+    "./styles.9b76ce9365169661.css": "f54ffa70f2822e0cd732283f1a59aeb6d0795eb7"
   },
   "navigationUrls": [
     {

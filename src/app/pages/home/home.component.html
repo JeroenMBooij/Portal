@@ -1,5 +1,5 @@
 <header> 
-    <mat-toolbar fxHide.lt-md="true" color="accent" class="position-fixed">
+    <mat-toolbar fxHide.gt-sm="true" color="accent" class="position-fixed">
 
         <div class="d-inline-block" (click)="sidenav.toggle()">
             <div class="planet planetEarth">
@@ -16,7 +16,7 @@
             <a mat-button href="https://github.com/JeroenMBooij" target="_blank"><span style="color: white;">Github</span></a>
         </div>
     </mat-toolbar>
-    <mat-toolbar fxHide.gt-sm="true" >
+    <mat-toolbar fxHide.lt-md="true" color="accent" class="position-fixed">
         <div class="d-inline-block" (click)="themeService.switch()">
             <div class="planet planetEarth">
                 <div class="rotation-container">

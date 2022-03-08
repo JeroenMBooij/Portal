@@ -18,9 +18,8 @@ export class HomeComponent implements OnInit {
     public amTheme: string;
 
     constructor(
-        private translationService: TranslationService,
-        private themeService: ThemeService,
-        private router: Router) 
+        public themeService: ThemeService,
+        private translationService: TranslationService) 
     { 
     }
 
@@ -41,10 +40,6 @@ export class HomeComponent implements OnInit {
         this.themeService.update.subscribe(update => {
             this.amTheme = `am-${update.replace('-theme', '')}`;
         });
-    }
-
-    public toggle(state: string): void
-    {
     }
 
     public useLanguage(language: string): void

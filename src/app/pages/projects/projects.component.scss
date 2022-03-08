@@ -1,0 +1,23 @@
+.content-scroll-container{
+    height: calc(100vh - var(--header-height) - 50px);
+    max-height: calc(100vh - var(--header-height) - 50px);
+    overflow: auto;
+}
+
+
+.my-container {
+    width: 50%;
+    z-index: 1;
+}
+
+@media only screen and (max-width: 1000px) {
+    .my-container {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mobile{
+        width: 100vw !important;
+    }
+  }

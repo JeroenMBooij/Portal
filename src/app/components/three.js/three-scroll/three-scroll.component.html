@@ -1,0 +1,10 @@
+<div id="reel-wrap" class="scroll-container d-none">
+    <div 
+        class="reel-provider"
+        *ngFor="let imageUrl of imageUrls"
+    >
+        <img src="{{imageUrl}}" class="scroll-img" alt="" />
+    </div>
+</div>
+
+<div #reelContainer class="reel-container"></div>

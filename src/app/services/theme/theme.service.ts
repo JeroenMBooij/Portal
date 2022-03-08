@@ -8,7 +8,11 @@ import
     LIGHT_THEME_INDEX, 
     THEME_LIST, 
     LIGHT_THEME_BACK_COLOR,
-    DARK_THEME_BACK_COLOR
+    DARK_THEME_BACK_COLOR,
+    LIGHT_THEME_PRIMARY_COLOR,
+    DARK_THEME_PRIMARY_COLOR,
+    DARK_THEME_CONTRAST_COLOR,
+    LIGHT_THEME_CONTRAST_COLOR
 } from "src/app/common/constants/theme.constants";
 import { TranslationService } from '../translation/translation.service';
 
@@ -21,21 +25,15 @@ export class ThemeService
     public update: BehaviorSubject<any> = new BehaviorSubject("");
     public addButton: BehaviorSubject<any> = new BehaviorSubject("");
 
-    public themeMath: BehaviorSubject<any> = new BehaviorSubject("");
-    public themeReading: BehaviorSubject<any> = new BehaviorSubject("");
-    public themeWriting: BehaviorSubject<any> = new BehaviorSubject("");
-    public themeCustom: BehaviorSubject<any> = new BehaviorSubject("");
-
 
     
-    constructor(private translationService: TranslationService) { }
-
-
-    public bootstrap()
+    constructor(private translationService: TranslationService) 
     {
         let selectedTheme = localStorage.getItem('theme');
         this.setTheme(selectedTheme);
     }
+
+
 
     public get(): string
     {
@@ -83,26 +81,21 @@ export class ThemeService
         switch(newTheme)
         {
             case THEME_LIST[LIGHT_THEME_INDEX]:
+                document.documentElement.style.setProperty('--my-theme-primary-color', LIGHT_THEME_PRIMARY_COLOR);
                 document.documentElement.style.setProperty('--my-theme-color', LIGHT_THEME_COLOR);
                 document.documentElement.style.setProperty('--theme-back-color', LIGHT_THEME_BACK_COLOR);
+                document.documentElement.style.setProperty('--theme-contrast-color', LIGHT_THEME_CONTRAST_COLOR);
                 this.addButton.next('add-light');
-
-                this.themeMath.next('light-math.png');
-                this.themeReading.next('light-reading.png');
-                this.themeWriting.next('light-writing.png');
-                this.themeCustom.next('light-custom.png');
 
                 break;
             
             case THEME_LIST[DARK_THEME_INDEX]:
+                document.documentElement.style.setProperty('--my-theme-primary-color', DARK_THEME_PRIMARY_COLOR);
                 document.documentElement.style.setProperty('--my-theme-color', DARK_THEME_COLOR);
                 document.documentElement.style.setProperty('--theme-back-color', DARK_THEME_BACK_COLOR);
+                document.documentElement.style.setProperty('--theme-contrast-color', DARK_THEME_CONTRAST_COLOR);
                 this.addButton.next('add-dark');
-                
-                this.themeMath.next('dark-math.png');
-                this.themeReading.next('dark-reading.png');
-                this.themeWriting.next('dark-writing.png');
-                this.themeCustom.next('dark-custom.png');
+
                 break;
         }
         
@@ -110,3 +103,4 @@ export class ThemeService
         return newTheme;
     }
 }
+

@@ -1,0 +1,158 @@
+
+
+
+.planet 
+{
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    margin-top: 30px;
+}
+
+.language{
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.planet .rotation-container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.planetEarth
+{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+.planetEarth .loader::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to top, transparent, rgba(54, 148, 54, 0.4));
+    background-size: 200px 360px;
+    background-repeat: no-repeat;
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 200px;
+}
+
+@keyframes counterRotate {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    100% {
+        transform: rotate(-360deg)
+    }
+}
+
+
+.earth {
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    background: url("/assets/images/earth.jpg");
+    border-radius: 50%;
+    background-size: cover;
+    animation: animateEarth 20s linear infinite, 5s linear glowEarth infinite;
+}
+
+@keyframes animateEarth {
+    0% {
+        background-position: 0;
+    }
+
+    100% {
+        background-position: 162.5%;
+    }
+}
+
+@keyframes glowEarth {
+    0% {
+        box-shadow: inset 0 0 10px #03a9f4, 0 0 10px #03a9f4;
+    }
+
+    50% {
+        box-shadow: inset 0 0 30px #03a9f4, 0 0 30px #03a9f4;
+    }
+
+    100% {
+        box-shadow: inset 0 0 10px #03a9f4, 0 0 10px #03a9f4;
+    }
+}
+
+
+
+.mat-sidenav-container {
+  min-height: calc(100vh - var(--header-height)) !important;
+}
+
+.mat-sidenav div {
+    display: flex !important;
+}
+
+.my-nav-container{
+    height: calc(100vh - var(--header-height) - 10px);
+}
+
+.language-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 250px;
+    margin-right: 20px;
+}
+
+.bottom-sidenav {
+    position: relative;
+    bottom: 0;
+}
+
+.active-link span::after{
+    opacity: 1;
+    width: 100%;
+}
+
+.active-link {
+    cursor: default ;
+}
+
+
+.mat-toolbar {
+    min-height: var(--header-height) !important; 
+    height: var(--header-height) !important;
+    top: 0; 
+    z-index: 9
+}
+  
+.mat-toolbar-row {
+    min-height: var(--header-height) !important; 
+    height: var(--header-height) !important;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+
+
+
+

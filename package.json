@@ -1,5 +1,5 @@
 {
-  "name": "Portal",
+  "name": "portal",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -13,7 +13,7 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "~13.2.1",
-    "@angular/cdk": "^13.2.1",
+    "@angular/cdk": "^13.2.4",
     "@angular/common": "~13.2.1",
     "@angular/compiler": "~13.2.1",
     "@angular/core": "~13.2.1",
@@ -30,15 +30,22 @@
     "@types/dat-gui": "^0.6.3",
     "c": "^1.1.1",
     "dat.gui": "^0.7.7",
+    "file-loader": "^6.2.0",
     "firebase": "^8.10.0",
+    "gsap": "^3.9.1",
+    "ngx-scrollbar": "^9.0.2",
     "ngx-select-dropdown": "^2.1.0",
+    "ngx-translate-extract": "^1.0.0",
     "rxjs": "^7.5.2",
-    "three": "^0.137.5",
+    "three": "^0.126.0",
+    "three-bmfont-text": "^3.0.1",
     "tslib": "^2.0.0",
+    "webpack-glsl-loader": "^1.0.1",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
     "@angular-builders/custom-webpack": "^13.1.0",
+    "@angular-builders/dev-server": "^7.3.1",
     "@angular-devkit/architect": "^0.1302.3",
     "@angular-devkit/build-angular": "^13.2.3",
     "@angular/cli": "~13.2.2",

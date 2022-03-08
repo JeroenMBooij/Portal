@@ -1,56 +1,59 @@
 {
-	"authentication": {
-		"currentPassword": "当前密码",
-		"email": "电子邮件",
-		"invalidCredentials": "登录无效。请检查您的电子邮件和密码",
-		"login": "登录",
-		"logout": "登出",
-		"manageAccount": "管理帐户",
-		"newPassword": "新密码",
-		"noAccount": "没有帐户吗",
-		"password": "密码",
-		"recover": "恢复",
-		"register": "登记",
-		"username": "用户名",
-		"validEmail": "请使用有效的电子邮件地址",
-        "registrationSuccess": "登记通过",
-		"validPassword": "密码必须至少有六个字符",
-        "passwordUpdated": "为 {email} 调整密码"
+	"about": {
+		"intro": "你好我叫",
+		"iam": "我是软件工程师专门在构建应用程序接口 (API) 还有时在构建图形用户界面。现在我学习信息学在Avans应用科学大学还在工作技术项目为了提升编程",
+		"someTech": "这里是些术我已经一工作"
 	},
+    "info": {
+        "welcome": ""
+    },
 	"dropdown": {
 		"more": "更多信息",
 		"noResults": "没结果",
 		"search": "搜索",
 		"select": "选择"
 	},
-	"header": {
-		"cardSettings": "卡片设置",
-		"decks": "甲板",
-		"review": "审查"
-	},
 	"input": {
-		"accountDeleted": "帐户删除",
 		"cancel": "取消",
 		"confirm": "确认",
 		"dark-theme": "黑色的主题",
-		"delete": "删除",
-		"deleteNotDelete": "您要不要删除 {email}",
 		"light-theme": "白色的主题",
-		"required": "必需",
-		"reset": "重启",
-		"update": "更新"
+		"required": "必需"
 	},
 	"language": {
 		"select": "选择语言"
 	},
-	"shared": {
-		"title": "迪达克老师"
-	},
 	"signpost": {
-		"returnToLogin": "返回登录",
-		"signup": "在这里注册",
-        "welcome": "欢迎在应用中",
-        "settings": "",
-        "groups": ""
-	}
+		"checkGithub": "登录",
+		"checkProjects": "看看一些项目",
+		"home": "主页",
+		"projects": "些项目",
+		"techStack": "技术桩"
+	},
+    "projects": {
+        "auth": {
+            "title": "一度登录",
+            "content": "该项目的目标是在.NET中使用Identityserver4了解开放授权 (OAuth) 和OpenId。 这个项目是用一个干净的架构实现的并为任何项目的所有身份验证需求提供了一个易于使用的界面并且能够以任何你想要的方式构建你的 JWT。 应用程序接口 (API) <br/> 处理 <br/><br/> <ul> <li>注册应用程序和用户 </li> <li>验证和授权 </li> <li>更新密码 </li> <li>重置和 恢复丢失的密码 </li> <li>发送电子邮件 </li> <li>刷新令牌 </li> </ul>"
+        },
+        "task": {
+            "title": "实时的任务辖",
+            "content": "该项目允许用户与团队一起构建看板。一位用户所做的更改会实时反映给同一团队中的其他用户。可以将任务组织成sprint并且可以使用燃尽图跟踪进度。"
+        },
+        "voice": {
+            "title": "语音控制众多应用程序接口 (API)",
+            "content": "该项目允许用户配置带有参数的超文本传输协议 (HTTP) 请求并将其附加到语音命令中。例如如果您有一个应用程序接口 (API) 可以打开多个房间的灯您可以将音频文件发送到语音控制 应用程序接口 (API) 说 “打开房间一的灯 ”语音控制应用程序接口 (API) 将发送一个超文本傳輸協定 (HTTP) 请求 到以 “房间一” 作为查询参数控制灯的应用程序接口 (API)。"
+        },
+        "email": {
+            "title": "电邮服务",
+            "content": "目标这个项目是构建应用程序接口 (API) 发送电子邮件跟构建超文本标记语言 (HTML) 还层叠样式表 (CSS)"
+        },
+        "deeplearning": {
+            "title": "手写和演讲认出",
+            "content": "该项目的目标是了解神经网络所涉及的数学以及如何在神经网络中构建层。 这个学习目标是我的数据科学辅修课程的一部分，我根据 Graves A. 和 Schmidhuber J. 的研究论文构建了一个手写识别神经网络名为 <a href='https://people.idsia.ch/~juergen/nips2009.pdf' target='_blank'>Offline Handwriting Recognition with Multidimensional Recurrent Neural Networks</a>"
+        },
+        "didac": {
+            "title": "Didac老师",
+            "content": "这个项目的目标是构建一个应用程序将我以前的项目手写和语音识别单点登录和电子邮件服务结合在一个由Kubernetes和AWS维护的微服务架构中。有了这个应用程序用户可以创建配置学习和分享闪存卡。学习抽认卡之间的时间基于卡片上的用户学习曲线该曲线是使用 <a href='https://www.supermemo.com/en/archives1990-2015/english/ol/sm2' target='_blank'>SuperMemo 2 间隔重复算法</a> 并取决于给予卡片的反馈以及回答抽认卡所需的时间。此外该应用程序通过排行榜和数据可视化提供了对用户学习保留的洞察力。"
+        }
+    }
 }

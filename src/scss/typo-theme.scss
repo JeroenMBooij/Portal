@@ -16,6 +16,6 @@ $custom-typography: mat-typography-config(
     // Smaller body and hint text.
     //$caption
 
-    $button: mat-typography-level(20px),
-    $input: mat-typography-level(20px, 1.125, 600, 'Serif')
+    $button: mat-typography-level(clamp(12px, 4vw, 20px)),
+    $input: mat-typography-level(clamp(12px, 4vw, 25px), 1.125, 600, 'Serif')
 );

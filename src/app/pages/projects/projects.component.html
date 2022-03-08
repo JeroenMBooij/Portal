@@ -1,0 +1,54 @@
+<section *ngIf="currentProject" class="d-flex max-vw-100" aria-labelledby="projects-label">
+    <div class="my-container pt-md-5 pr-4 pl-4">
+        <div class="mobile w-100 pl-4 pr-4 m-0">
+            <ng-scrollbar class='content-scroll-container'>
+                <div class="mr-5">
+                    <div class="d-flex flex-wrap justify-content-between text-center">
+                        <mat-form-field class="my-container m-0 mt-5" color="accent">
+                            <mat-label>{{'signpost.projects' | translate}}</mat-label>
+                            <mat-select [value]="currentProject.title" (selectionChange)="switchProject($event.value)">
+                                <mat-option *ngFor="let project of projects.slice().reverse()" [value]="project.title">
+                                    <p>{{project.title}}</p>  
+                                </mat-option>
+                            </mat-select>
+                        </mat-form-field>
+                        <div class="mt-5">
+                            <mat-icon svgIcon='github' class="my-icon-button"  (click)="openGithubProject()"></mat-icon>
+                            <p class="pt-4">
+                                {{'signpost.checkGithub' | translate}}
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="pt-4 pr-3 text-justify">
+                        <p [innerHTML]="currentProject?.content"></p>
+                    </div>
+
+                    <div class="w-100 pt-5"> 
+                        <p class="font-weight-bold text-center">{{'signpost.techStack' | translate}}</p>
+                        <hr class="theme-contrast-background"/>
+                        <ul class="d-flex flex-wrap w-100 p-0">
+                            <li 
+                                *ngFor="let tech of currentProject?.techStack"
+                                class="ml-5"
+                            >
+                                <p class="m-0">{{tech}}</p>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <div class="pt-4 pb-4">
+                        <div class="w-100 thick-theme-border theme-background"></div>
+                    </div>
+                </div>
+            </ng-scrollbar>
+        </div>
+    </div>
+    <div fxShow="true" fxHide.lt-md="true"  class="ml-auto position-fixed" style="right:0">
+        <three-scroll 
+            [imageUrls]="projectImages"
+            [position]="projectIndex"
+        ></three-scroll>
+    </div>
+</section>

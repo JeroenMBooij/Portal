@@ -12,5 +12,8 @@ export const DARK_THEME_COLOR = '#e91e63';
 export const LIGHT_THEME_BACK_COLOR = '#ffffff';
 export const DARK_THEME_BACK_COLOR = '#4e4e4e';
 
+export const LIGHT_THEME_CONTRAST_COLOR = '#000000';
+export const DARK_THEME_CONTRAST_COLOR = '#ffffff';
+
 export const SUCCESS_COLOR = '#00FF00'
 export const ERROR_COLOR = '#ff5722'

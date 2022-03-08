@@ -1,0 +1,11 @@
+.reel-container {
+    height: calc(100vh - var(--header-height));
+    max-height: calc(100vh - var(--header-height));
+    width: 50vw;
+}
+
+@media only screen and (max-width: 1000px) {
+    .reel-container {
+        width: 100vw;
+    }
+  }

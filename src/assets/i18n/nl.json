@@ -1,56 +1,59 @@
 {
-	"authentication": {
-		"currentPassword": "Huidig wachtwoord",
-		"email": "E-mail",
-		"invalidCredentials": "Ongeldige login. Controleer je inloggegevens",
-		"login": "Inloggen",
-		"logout": "Uitloggen",
-		"manageAccount": "Account Beheer",
-		"newPassword": "Nieuw wachtwoord",
-		"noAccount": "Nog geen account?",
-		"password": "Wachtwoord",
-		"recover": "Herstel",
-		"register": "Registreren",
-		"username": "Gebruikersnaam",
-		"validEmail": "Gebruik een geldig e-mailadres",
-        "registrationSuccess": "Registratie succesvol",
-		"validPassword": "Wachtwoord moet minstens 6 karakters hebben",
-        "passwordUpdated": "Wachtwoord succesvol aangepast voor {email}"
+	"about": {
+		"iam": "Ik ben een software engineer die gespecialiseerd is in het bouwen van Web API's, maar af en toe hou ik me ook bezig met het ontwerpen van graphical user interfaces. Ik studeer Informatica aan Avans hogeschool en werk ik aan een aantal technische projecten om mijn programeervaardigheden te verbeteren.",
+		"intro": "Hallo mijn naam is",
+		"someTech": "Hier zijn een paar technologieën waar ik recentelijk mee heb gewerkt"
 	},
+    "info": {
+        "welcome": ""
+    },
 	"dropdown": {
 		"more": "meer",
 		"noResults": "geen resultaten",
 		"search": "Zoeken",
 		"select": "Selecteer"
 	},
-	"header": {
-		"cardSettings": "Kaart Instellingen",
-		"dark-theme": "dark theme",
-		"decks": "Decks",
-		"light-theme": "light theme",
-		"review": "Review"
-	},
 	"input": {
-		"accountDeleted": "Account verwijderd",
 		"cancel": "Annuleren",
 		"confirm": "Bevestigen",
-		"delete": "Verwijderen",
-		"deleteNotDelete": "Weet je zeker dat je {email} wilt verwijderen",
-		"required": "Is verplicht",
-		"reset": "Reset",
-		"update": "Update"
+		"dark-theme": "dark theme",
+		"light-theme": "light theme",
+		"required": "Is verplicht"
 	},
 	"language": {
-		"select": "Selecteer Taal"
-	},
-	"shared": {
-		"title": "Vuur Skelet"
+		"select": "Taal Selecteren"
 	},
 	"signpost": {
-		"returnToLogin": "Keer terug naar het inlogscherm",
-		"signup": "Registreer hier",
-        "welcome": "Welkom in de app",
-        "settings": "settings",
-        "groups": "groepen"
-	}
+		"checkGithub": "Check Github",
+		"checkProjects": "Bekijk een paar van mijn projecten",
+		"home": "Home",
+		"projects": "Projecten",
+		"techStack": "Technology Stack"
+	},
+    "projects": {
+        "auth": {
+            "title": "Single sign-on",
+            "content": "Het doel van dit project was om te leren hoe OAuth 2.0 en OpenId met Identityserver 4 in .NET werken. Dit project is geïmplementeerd met een clean (onion) architectuur en heeft een gebruiksvriendelijke interface voor alle authenticatiebehoeften voor elk project, met de mogelijkheid om JWT te structureren zoals dat uitkomt. <br/> De Api verzorgd: <br/><br/> <ul> <li>Registreren van applicaties en gebruikers </li> <li>Authenticatie en autorisatie </li> <li>Wachtwoorden bijwerken </li> <li>Reset en recover wachtwoord </li> <li>E-mails verzenden </li> <li>Refresh tokens</li> </ul>"
+        },
+        "task": {
+            "title": "Real Time Task Manager",
+            "content": "Met dit project kunnen gebruikers in een team een kanbanbord bouwen. Wijzigingen die door één gebruiker zijn gemaakt, worden in realtime weergegeven aan andere gebruikers in hetzelfde team. Taken kunnen worden georganiseerd in sprints en de voortgang kan gevolgd worden met een burn-downgrafiek."
+        },
+        "voice": {
+            "title": "Voice Control API's",
+            "content": "Met dit project kunnen gebruikers een HTTP-verzoek met queryparameters configureren en die configuratie koppelen aan een spraakopdracht. Als je bijvoorbeeld een API hebt die het licht in meerdere kamers kan aanzetten, dan kan je een audiobestand naar de Voice Control API sturen met de tekst \"zet het licht aan in kamer A\", en de Voice Control API stuurt een HTTP-verzoek naar die API die de lampen aanstuurt met ‘kamer A' als queryparamater."
+        },
+        "email": {
+            "title": "E-mail Service",
+            "content": "Het doel van dit project was om een ​​API te bouwen voor het verzenden van e-mails ontworpen met HTML en CSS, met een gebruiksvriendelijke interface voor allerlei soorten projecten."
+        },
+        "deeplearning": {
+            "title": "Handwriting & Speech recognition",
+            "content": "Het doel van dit project was om te leren hoe de wiskunde in neuraal netwerk werkt en hoe je de lagen in een neuraal netwerk kan opbouwen. Dit leerdoel was onderdeel van mijn minor data science, waar ik o.a. een neuraal netwerk voor handschriftherkenning heb gemaakt op basis van een onderzoekspaper van Graves A. & Schmidhuber J. genaamd <a href='https://people.idsia.ch/~juergen/nips2009.pdf' target='_blank'>Offline Handwriting Recognition with Multidimensional Recurrent Neural Networks</a>"
+        },
+        "didac": {
+            "title": "Leraar Didac",
+            "content": "Het doel van dit project is om een app te bouwen die mijn eerdere projecten Handwriting & Speech recognition, Single sign-on and the Email Service in een microservice-architectuur onderbrengt, die wordt onderhouden met Kubernetes en AWS. Met deze app kunnen gebruikers flash-kaarten maken, configureren, leren en delen. De tijd tussen het leren van flashcards is gebaseerd op de leercurve van de gebruiker die aan de kaart is gekoppeld. De leercurve wordt berekend met het <a href='https://www.supermemo.com/en/archives1990-2015/english/ol/sm2' target='_blank'> SuperMemo 2 spaced repetition algorithm </a> en hangt af van de feedback die aan de kaart wordt gegeven en de tijd die nodig is om de flashcard te beantwoorden. Verder geeft de app inzicht in de leerretentie van gebruikers met leaderboards en datavisualisatie. "
+        }
+    }
 }

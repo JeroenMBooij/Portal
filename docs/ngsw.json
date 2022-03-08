@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1646729618872,
+  "timestamp": 1646731012917,
   "index": "./index.html",
   "assetGroups": [
     {
@@ -14,7 +14,7 @@
         "./225.0b88e9001e749e0d.js",
         "./315.0c02565e4bfbd2cb.js",
         "./index.html",
-        "./main.c7b990ba8b99e4fd.js",
+        "./main.6385be6df7a81eaa.js",
         "./manifest.webmanifest",
         "./polyfills.1d51abe7ca946a30.js",
         "./runtime.5a2c5fd40c8c1881.js",
@@ -60,7 +60,8 @@
         "./assets/images/projects/email.png",
         "./assets/images/projects/task.png",
         "./assets/images/projects/voice.png",
-        "./assets/images/vegan.svg"
+        "./assets/images/vegan.svg",
+        "./earth.01ae071d88836d78.jpg"
       ],
       "patterns": []
     }
@@ -115,8 +116,9 @@
     "./assets/images/projects/task.png": "1bd67608378e5faed64c20f255ddcdf5ab01f7dd",
     "./assets/images/projects/voice.png": "d3390b01355bec5955e1f519bbb267c8a6d7b4f0",
     "./assets/images/vegan.svg": "4162ce7be353bfe81f85643c0b4a54efaf899e02",
-    "./index.html": "e66cb94c1ebaab499b3984ed02c7c6784a3626ab",
-    "./main.c7b990ba8b99e4fd.js": "97c0df7465e5f26e6441fe07464e47e9524e9fd6",
+    "./earth.01ae071d88836d78.jpg": "66a8f7a4cfcfa72126fa0c7b59f08f3fda8a5617",
+    "./index.html": "7e4ec19f1b2abeaf7a08e34c2ac23d38158fb6b7",
+    "./main.6385be6df7a81eaa.js": "085e1cb60a3d1a739e2f9833b5fd5b77dec78d8f",
     "./manifest.webmanifest": "0d83efa350010801a14dd29b982f423958ce9ff1",
     "./polyfills.1d51abe7ca946a30.js": "ad77c4b57de2ed9b373e3ce4f3336c22ea6494b5",
     "./runtime.5a2c5fd40c8c1881.js": "cc396e04c65677ab6111120bb51463373b5f654f",

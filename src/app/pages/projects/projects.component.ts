@@ -64,7 +64,7 @@ export class ProjectsComponent implements OnInit
         authProject.content = await this.translationService.get('projects.auth.content');
         authProject.imageUrl = `${imageRootUrl}/auth.png`;
         authProject.githubUrl = 'https://github.com/JeroenMBooij/JWT-SSO-Authentication';
-        authProject.techStack = [".NET 5.0 Web Api", "Swagger", "MSSQL", "Docker"];
+        authProject.techStack = [".NET 5.0 Web Api", "Swagger", "MySQL", "Docker"];
 
         let taskProject = new ProjectModel();
         taskProject.title = await this.translationService.get('projects.task.title');
@@ -98,7 +98,7 @@ export class ProjectsComponent implements OnInit
         didacProject.title = await this.translationService.get('projects.didac.title');
         didacProject.content = await this.translationService.get('projects.didac.content');
         didacProject.imageUrl = `${imageRootUrl}/didac.png`;
-        didacProject.githubUrl = 'https://github.com/JeroenMBooij/Teacher-Didac-App';
+        didacProject.githubUrl = 'https://github.com/JeroenMBooij/Smart-Learning';
         didacProject.techStack = ["Kubernetes", ".NET 5.0", "Angular", "Django", "RXJS", "Firebase", "Three.js", "Monaco Editor", "Hangfire (task scheduler)"];
 
         this.projects = [

@@ -93,7 +93,7 @@ export class ThreeScrollComponent implements OnInit, AfterViewInit
         {
             e.preventDefault();
             this.scrollModel.speed += e.deltaY * 0.0003;
-        });
+        }, {passive: true});
 
         this.touchPos = 0;
         document.body.ontouchstart = (e) => 

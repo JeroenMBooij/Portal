@@ -55,6 +55,13 @@ export class OverviewComponent implements OnInit, AfterViewInit
         this.router.navigate(['projects'])
     }
 
+    public openFirebaseAnalytics(): void
+    {
+        window.open('https://firebase.google.com/products/analytics?gclid=Cj0KCQiAmpyRBhC-ARIsABs2EAoiGnCWhj-dLGZMRG7mruClm4FUTlN9fxUq-FpVTjPDUWHi0GuxF0AaArReEALw_wcB&gclsrc=aw.ds',
+            '_blank').focus();
+    }
+
+
     private getThreeBuildTextContainerHeight(): string
     {
         let w = window.innerWidth / 14.5;

@@ -198,6 +198,12 @@ h2{
     width: clamp(20px, 5vw, 35px) !important;
 }
 
+.click-icon:hover
+{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
 .my-icon-button {
     transform: scale(2.6);
 }

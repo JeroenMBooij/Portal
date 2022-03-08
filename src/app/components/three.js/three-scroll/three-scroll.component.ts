@@ -39,10 +39,10 @@ export class ThreeScrollComponent implements OnInit, AfterViewInit
     ngOnInit(): void {
     }
 
-    async ngAfterViewInit(): Promise<void>
+    ngAfterViewInit(): void
     {
         this.scrollModel = new ScrollModel();
-        await this.bootstrap();
+        this.bootstrap();
         this.setProperties();
         this.setEventHandlers();
 
@@ -91,7 +91,6 @@ export class ThreeScrollComponent implements OnInit, AfterViewInit
 
         this.canvas.addEventListener("wheel", (e) => 
         {
-            e.preventDefault();
             this.scrollModel.speed += e.deltaY * 0.0003;
         }, {passive: true});
 
@@ -116,7 +115,7 @@ export class ThreeScrollComponent implements OnInit, AfterViewInit
         });
     }
 
-    private async bootstrap(): Promise<void>
+    private bootstrap(): void
     {
         this.scrollModel.scene = new THREE.Scene();
         this.scrollModel.width = this.container.offsetWidth;
@@ -150,21 +149,16 @@ export class ThreeScrollComponent implements OnInit, AfterViewInit
         this.groups = [];
         this.materials = [];
         this.scrollModel.meshes = [];
-        await this.handleImages();
+
+        this.handleImages();
     }
 
-    private async handleImages(): Promise<void>  
+    private handleImages(): void
     {
-        let images = document.querySelectorAll(".scroll-img") as NodeListOf<HTMLImageElement>;
-
-        for (let i = 0; i < images.length; i++)
+        for (let i = 0; i < this.imageUrls.length; i++)
         {
-            let im: HTMLImageElement = images[i];
-            await new Promise((resolve, reject) => 
-            {
-                im.onload = () => resolve(true);
-                im.onerror = reject;
-            });
+            let im: HTMLImageElement = new Image();
+            im.src = this.imageUrls[i];
 
             let mat = this.material.clone();
             this.materials.push(mat);

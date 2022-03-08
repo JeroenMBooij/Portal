@@ -1,17 +1,18 @@
 {
 	"about": {
-        "intro": "Hello my name is",
 		"iam": "I am a software engineer specializing in building Web API's and occasionally designing graphical user interfaces. Currently I am studying Computer Science at Avans university of applied science and working on some tech projects to improve my coding skills.",
+		"intro": "Hello my name is",
 		"someTech": "Here are a few technologies I've been working with recently:"
 	},
-    "info": {
-        "welcome": "Hello there! <br> Is this screen to dark for you? click on the spinning globe and use the switch to enable a light theme"
-    },
 	"dropdown": {
 		"more": "more",
 		"noResults": "No results",
 		"search": "Search",
 		"select": "Select"
+	},
+	"info": {
+		"firebaseDataCollection": "This app uses Google Analytics to collect usage data",
+		"welcome": "Hello there! <br> Is this screen to dark for you? click on the spinning globe and use the switch to enable a light theme"
 	},
 	"input": {
 		"cancel": "Cancel",
@@ -25,37 +26,37 @@
 	"language": {
 		"select": "Select Language"
 	},
+	"projects": {
+		"auth": {
+			"content": "The goal of this project was to learn about oAuth 2.0 and OpenId with Identityserver 4 in .NET. This project was implemented with a clean (onion) architecture and and provides an easy to use interface for all authentication needs for any project, with the ability to structure your JWT anyway you want.  <br/> The API handles: <br/><br/> <ul> <li>Registrating applicaties and users </li> <li>Authenticating and authorizing </li> <li>Update passwords </li> <li>Reset and recover lost password </li> <li>Sending emails </li> <li>Refresh Tokens </li> </ul> ",
+			"title": "Single sign-on"
+		},
+		"deeplearning": {
+			"content": "The goal for this project was to learn about the math involved with neural network and how to construct the layers in a neural network. This learning goal was part of my data science minor, where I build a handwriting recognition neural network based on a research paper from Graves A. & Schmidhuber J. called <a href='https://people.idsia.ch/~juergen/nips2009.pdf' target='_blank'>Offline Handwriting Recognition with Multidimensional Recurrent Neural Networks</a>",
+			"title": "Handwriting & Speech recognition"
+		},
+		"didac": {
+			"content": "The goal of this project is to build an app that combines my previous projects, Handwriting & Speech recognition, Single sign-on and the Email Service in a microservice architecture maintained with Kubernetes and AWS. With this app users have the abillty to create, configure, learn and share flash cards. The time between learning flashcards is based on the users learning curve attached to the card, which is calculated with the <a href='https://www.supermemo.com/en/archives1990-2015/english/ol/sm2' target='_blank'> SuperMemo 2 spaced repetition algorithm </a> and depends on feedback given to the card and the time it takes to answer the flashcard. Furthermore the app provides insight into the users learning retention with leaderboards and data visualisation.",
+			"title": "Teacher Didac"
+		},
+		"email": {
+			"content": "The goal of this project was to build an API for sending emails designed with HTML and CSS, with an easy to use interface for all kinds of projects.",
+			"title": "Email Service"
+		},
+		"task": {
+			"content": "This project allows users to build a kanban board with a team. Changes made by one user are reflected in real-time to other users in the same team. Tasks can be organized into sprints and progress can be tracked with a burn down chart.",
+			"title": "Real Time Task Manager"
+		},
+		"voice": {
+			"content": "This project allows users to configure a HTTP request with parameters and attach it to a voice command. For example if you have an API that can turn on the lights in multiple rooms you can send an audiofile to the Voice Control API saying, \"turn on the light in room A\", and the Voice Control API will send a HTTP request to the API controlling the lights with 'room A' as query paramater.",
+			"title": "Voice Control API's"
+		}
+	},
 	"signpost": {
 		"checkGithub": " Check Github",
 		"checkProjects": "Check out some of my projects",
 		"home": "Home",
 		"projects": "Projects",
 		"techStack": "Technology Stack"
-	},
-    "projects": {
-        "auth": {
-            "title": "Single sign-on",
-            "content": "The goal of this project was to learn about oAuth 2.0 and OpenId with Identityserver 4 in .NET. This project was implemented with a clean (onion) architecture and and provides an easy to use interface for all authentication needs for any project, with the ability to structure your JWT anyway you want.  <br/> The API handles: <br/><br/> <ul> <li>Registrating applicaties and users </li> <li>Authenticating and authorizing </li> <li>Update passwords </li> <li>Reset and recover lost password </li> <li>Sending emails </li> <li>Refresh Tokens </li> </ul> "
-        },
-        "task": {
-            "title": "Real Time Task Manager",
-            "content": "This project allows users to build a kanban board with a team. Changes made by one user are reflected in real-time to other users in the same team. Tasks can be organized into sprints and progress can be tracked with a burn down chart."
-        },
-        "voice": {
-            "title": "Voice Control API's",
-            "content": "This project allows users to configure a HTTP request with parameters and attach it to a voice command. For example if you have an API that can turn on the lights in multiple rooms you can send an audiofile to the Voice Control API saying, \"turn on the light in room A\", and the Voice Control API will send a HTTP request to the API controlling the lights with 'room A' as query paramater."
-        },
-        "email": {
-            "title": "Email Service",
-            "content": "The goal of this project was to build an API for sending emails designed with HTML and CSS, with an easy to use interface for all kinds of projects."
-        },
-        "deeplearning": {
-            "title": "Handwriting & Speech recognition",
-            "content": "The goal for this project was to learn about the math involved with neural network and how to construct the layers in a neural network. This learning goal was part of my data science minor, where I build a handwriting recognition neural network based on a research paper from Graves A. & Schmidhuber J. called <a href='https://people.idsia.ch/~juergen/nips2009.pdf' target='_blank'>Offline Handwriting Recognition with Multidimensional Recurrent Neural Networks</a>"
-        },
-        "didac": {
-            "title": "Teacher Didac",
-            "content": "The goal of this project is to build an app that combines my previous projects, Handwriting & Speech recognition, Single sign-on and the Email Service in a microservice architecture maintained with Kubernetes and AWS. With this app users have the abillty to create, configure, learn and share flash cards. The time between learning flashcards is based on the users learning curve attached to the card, which is calculated with the <a href='https://www.supermemo.com/en/archives1990-2015/english/ol/sm2' target='_blank'> SuperMemo 2 spaced repetition algorithm </a> and depends on feedback given to the card and the time it takes to answer the flashcard. Furthermore the app provides insight into the users learning retention with leaderboards and data visualisation."
-        }
-    }
+	}
 }

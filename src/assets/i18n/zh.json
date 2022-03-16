@@ -31,10 +31,10 @@
 		},
 		"deeplearning": {
 			"content": "该项目的目标是了解神经网络所涉及的数学以及如何在神经网络中构建层。 这个学习目标是我的数据科学辅修课程的一部分，我根据 Graves A. 和 Schmidhuber J. 的研究论文构建了一个手写识别神经网络名为 <a href='https://people.idsia.ch/~juergen/nips2009.pdf' target='_blank'>Offline Handwriting Recognition with Multidimensional Recurrent Neural Networks</a>",
-			"title": "手写和演讲认出"
+			"title": "写鉴别"
 		},
 		"didac": {
-			"content": "这个项目的目标是构建一个应用程序将我以前的项目手写和语音识别单点登录和电子邮件服务结合在一个由Kubernetes和AWS维护的微服务架构中。有了这个应用程序用户可以创建配置学习和分享闪存卡。学习抽认卡之间的时间基于卡片上的用户学习曲线该曲线是使用 <a href='https://www.supermemo.com/en/archives1990-2015/english/ol/sm2' target='_blank'>SuperMemo 2 间隔重复算法</a> 并取决于给予卡片的反馈以及回答抽认卡所需的时间。此外该应用程序通过排行榜和数据可视化提供了对用户学习保留的洞察力。",
+			"content": "这个项目的目标是构建一个应用程序将我以前的项目手写和语音识别单点登录和电子邮件服务结合在一个由Kubernetes维护的微服务架构中。有了这个应用程序用户可以创建配置学习和分享闪存卡。学习抽认卡之间的时间基于卡片上的用户学习曲线该曲线是使用 <a href='https://www.supermemo.com/en/archives1990-2015/english/ol/sm2' target='_blank'>SuperMemo 2 间隔重复算法</a> 并取决于给予卡片的反馈以及回答抽认卡所需的时间。此外该应用程序通过排行榜和数据可视化提供了对用户学习保留的洞察力。",
 			"title": "Didac老师"
 		},
 		"email": {

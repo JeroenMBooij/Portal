@@ -91,7 +91,7 @@ export class ProjectsComponent implements OnInit
         deeplearningProject.title = await this.translationService.get('projects.deeplearning.title');
         deeplearningProject.content = await this.translationService.get('projects.deeplearning.content');
         deeplearningProject.imageUrl = `${imageRootUrl}/deeplearning.png`;
-        deeplearningProject.githubUrl = 'https://colab.research.google.com/drive/16-2RFIBQ-y21aDFI6yFODOpm-GVb44J_#scrollTo=M0v8NLhjnCjf';
+        deeplearningProject.githubUrl = 'https://github.com/JeroenMBooij/Transcribing_Neural_Networks';
         deeplearningProject.techStack = ["Python", "Pandas", "Keras", "OpenCV"];
         
         let didacProject = new ProjectModel();

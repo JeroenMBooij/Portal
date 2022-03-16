@@ -34,7 +34,7 @@
 			"title": "Handwriting Recognition"
 		},
 		"didac": {
-			"content": "Het doel van dit project is om een app te bouwen die mijn eerdere projecten Handwriting & Speech recognition, Single sign-on and the Email Service in een microservice-architectuur onderbrengt, die wordt onderhouden met Kubernetes. Met deze app kunnen gebruikers flash-kaarten maken, configureren, leren en delen. De tijd tussen het leren van flashcards is gebaseerd op de leercurve van de gebruiker die aan de kaart is gekoppeld. De leercurve wordt berekend met het <a href='https://www.supermemo.com/en/archives1990-2015/english/ol/sm2' target='_blank'> SuperMemo 2 spaced repetition algorithm </a> en hangt af van de feedback die aan de kaart wordt gegeven en de tijd die nodig is om de flashcard te beantwoorden. Verder geeft de app inzicht in de leerretentie van gebruikers met leaderboards en datavisualisatie. ",
+			"content": "Het doel van dit project is om een app te bouwen die mijn eerdere projecten Handwriting recognition, Single sign-on and the Email Service in een microservice-architectuur onderbrengt, die wordt onderhouden met Kubernetes. Met deze app kunnen gebruikers flash-kaarten maken, configureren, leren en delen. De tijd tussen het leren van flashcards is gebaseerd op de leercurve van de gebruiker die aan de kaart is gekoppeld. De leercurve wordt berekend met het <a href='https://www.supermemo.com/en/archives1990-2015/english/ol/sm2' target='_blank'> SuperMemo 2 spaced repetition algorithm </a> en hangt af van de feedback die aan de kaart wordt gegeven en de tijd die nodig is om de flashcard te beantwoorden. Verder geeft de app inzicht in de leerretentie van gebruikers met leaderboards en datavisualisatie. ",
 			"title": "Leraar Didac"
 		},
 		"email": {

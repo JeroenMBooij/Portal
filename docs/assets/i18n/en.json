@@ -36,7 +36,7 @@
 			"title": "Handwriting Recognition"
 		},
 		"didac": {
-			"content": "The goal of this project is to build an app that combines my previous projects, Handwriting & Speech recognition, Single sign-on and the Email Service in a microservice architecture maintained with Kubernetes. With this app users have the abillty to create, configure, learn and share flash cards. The time between learning flashcards is based on the users learning curve attached to the card, which is calculated with the <a href='https://www.supermemo.com/en/archives1990-2015/english/ol/sm2' target='_blank'> SuperMemo 2 spaced repetition algorithm </a> and depends on feedback given to the card and the time it takes to answer the flashcard. Furthermore the app provides insight into the users learning retention with leaderboards and data visualisation.",
+			"content": "The goal of this project is to build an app that combines my previous projects, Handwriting recognition, Single sign-on and the Email Service in a microservice architecture maintained with Kubernetes. With this app users have the abillty to create, configure, learn and share flash cards. The time between learning flashcards is based on the users learning curve attached to the card, which is calculated with the <a href='https://www.supermemo.com/en/archives1990-2015/english/ol/sm2' target='_blank'> SuperMemo 2 spaced repetition algorithm </a> and depends on feedback given to the card and the time it takes to answer the flashcard. Furthermore the app provides insight into the users learning retention with leaderboards and data visualisation.",
 			"title": "Teacher Didac"
 		},
 		"email": {
